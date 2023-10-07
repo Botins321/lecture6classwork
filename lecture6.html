@@ -1,0 +1,25 @@
+<!DOCTYPE html>  
+    <html>  
+    <head> 
+<title>Egor's Animation</title> 
+<style>
+</style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+    <script>   
+    $(document).ready(function(){  
+        $("button").click(function(){  
+            $("div").animate({  
+                left: '350px',  
+                opacity: '2',  
+                height: '350px',  
+                width: '350px'  
+            });  
+        });  
+    });  
+    </script>   
+    </head>  
+    <body>  
+    <button>Start Egor's Animation</button>  
+    <div style="background:linear-gradient(149deg, rgba(11,187,156,1) 0%, rgba(106,20,175,1) 42%, rgba(150,24,148,1) 72%, rgba(115,53,134,1) 100%); height:250px; animation: char 0.9s steps(8) infinite, movechars 2s linear infinite; width:500px;border-radius: 200px;position:absolute;"></div>  
+    </body>  
+    </html>
